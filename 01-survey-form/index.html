@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Habits Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Reading Habits Survey</h1>
+        <p id="description">We would love to know more about your reading habits. Please fill out this survey.</p>
+
+        <form id="survey-form">
+            <!-- Name -->
+            <label id="name-label" for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <!-- Email -->
+            <label id="email-label" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <!-- Age -->
+            <label id="number-label" for="number">Age:</label>
+            <input type="number" id="number" name="age" min="12" max="100" placeholder="Enter your age" required>
+
+            <!-- Favorite Genre -->
+            <label for="dropdown">Favorite Genre:</label>
+            <select id="dropdown" name="genre">
+                <option value="fiction">Fiction</option>
+                <option value="non-fiction">Non-fiction</option>
+                <option value="mystery">Mystery</option>
+                <option value="fantasy">Fantasy</option>
+            </select>
+
+            <!-- Reading Frequency -->
+            <p>How often do you read?</p>
+            <label>
+                <input type="radio" name="frequency" value="daily" required> Daily
+            </label>
+            <label>
+                <input type="radio" name="frequency" value="weekly"> Weekly
+            </label>
+            <label>
+                <input type="radio" name="frequency" value="monthly"> Monthly
+            </label>
+
+            <!-- Reading Format -->
+            <p>What formats do you read?</p>
+            <label>
+                <input type="checkbox" name="format" value="ebook"> eBooks
+            </label>
+            <label>
+                <input type="checkbox" name="format" value="physical"> Physical books
+            </label>
+            <label>
+                <input type="checkbox" name="format" value="audiobook"> Audiobooks
+            </label>
+
+            <!-- Additional Comments -->
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" placeholder="Any other thoughts?"></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
