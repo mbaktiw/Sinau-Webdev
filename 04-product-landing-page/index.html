@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookshop Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="header">
+    <img id="header-img" src="https://media.istockphoto.com/id/1034157536/id/vektor/elemen-desain-vektor-untuk-toko-buku.jpg?s=612x612&w=0&k=20&c=5eDncM5N80EJ0KPN1DQqb96l-jTWsEWokITchUBNFUQ=" alt="Bookshop Logo">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#books">Books</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Books Section -->
+    <section id="books">
+      <h2>Special Promo</h2>
+      <div class="book-grid">
+        <div class="book-item">
+          <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671336608l/62047984.jpg">
+          <h3>Yellowface</h3>
+          <p>White lies. Dark humor. Deadly consequences… Bestselling sensation Juniper Song is not who she says she is, she didn’t write the book she claims she wrote, and she is most certainly not Asian American—in this chilling and hilariously cutting novel from R.F. Kuang, the #1 New York Times bestselling author of Babel. </p>
+          <p class="price">Original: <span class="original-price">$30.00</span> <br> Discounted: <span class="discounted-price">$15.81</span></p>
+        </div>
+        <div class="book-item">
+          <img src="https://target.scene7.com/is/image/Target/GUEST_4dd0b871-5b79-4dff-ac1a-1f129e0f29a5?wid=488&hei=488&fmt=pjpeg" alt="Book 2">
+          <h3>If We Were Villains</h3>
+          <p>The story of a tightly knit group of seven lyric-mad Shakespearean thespians who seem to prefer each other's company to anyone else's, thereby offending the rest of the world. But as these things so often go, something dark and sinister soon sews hatred in them, and wedges its way between them.</p>
+           <p class="price">Original: <span class="original-price">$30.99</span> <br> Discounted: <span class="discounted-price">$11.44</span></p>
+        </div>
+        <div class="book-item">
+          <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661863300l/61126612.jpg" alt="Book 3">
+          <h3>Alone with You in the Ether</h3>
+          <p>Two people meet in the Art Institute by chance. Prior to their encounter, he is a doctoral student who manages his destructive thoughts with compulsive calculations about time travel; she is a bipolar counterfeit artist, undergoing court-ordered psychotherapy. By the end of the story, these things will still be true. But this is not a story about endings.</p>
+           <p class="price">Original: <span class="original-price">$26.99</span> <br> Discounted: <span class="discounted-price">$14.23</span></p>
+        </div>
+        <div class="book-item">
+          <img src="https://m.media-amazon.com/images/I/810HqnD6-eS._AC_UF1000,1000_QL80_.jpg" alt="Book 4">
+          <h3>Beautiful World, Where Are You</h3>
+          <p>Alice, a novelist, meets Felix, who works in a warehouse, and asks him if he’d like to travel to Rome with her. In Dublin, her best friend, Eileen, is getting over a break-up, and slips back into flirting with Simon, a man she has known since childhood.</p>
+          <p class="price">Original: <span class="original-price">$28.00</span> <br> Discounted: <span class="discounted-price">$14.63</span></p>
+        </div>
+        <div class="book-item">
+          <img src="https://m.media-amazon.com/images/I/51LGnRJT4QL._AC_UF1000,1000_QL80_.jpg" alt="Book 5">
+          <h3>Le Grand Meaulnes</h3>
+          <p>When Meaulnes first arrives in Sologne, everyone is captivated by his good looks, daring, and charisma. But when he attends a strange party at a mysterious house with a beautiful girl hidden inside, he is changed forever.</p>
+           <p class="price">Original: <span class="original-price">$16.00</span> <br> Discounted: <span class="discounted-price">$12.88</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Welcome to our bookshop! We are passionate about bringing the best literature to readers all around the world.</p>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video-section">
+      <h2>Watch Recommendation Books for This Month</h2>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/He0zxxQf0Y0?si=eMVef2nHoRp8R-QA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Stay in Touch</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <label for="email">Subscribe to our newsletter:</label>
+        <input 
+        name='email'
+id="email" type="email" placeholder="Enter your email" required>
+        <input id="submit" type="submit" value="Subscribe">
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Bookshop. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
