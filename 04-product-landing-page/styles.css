@@ -96,9 +96,9 @@ input[type="email"], input[type="submit"] {
 }
 
 .book-item img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+    width:  auto;
+    height: 300px;
+    object-fit: cover;
 }
 
 footer {
